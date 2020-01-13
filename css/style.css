@@ -16,6 +16,14 @@ body {
     text-transform: uppercase;
     padding: 0px 20px 0 20px;
 }
+.site-main .project-area .button-group2 button{
+    background: transparent;
+    /*border: none;*/
+    border: 2px;
+    font: normal 500 16px/30px 'Roboto', cursive;
+    text-transform: uppercase;
+    padding: 0px 20px 0 20px;
+}
 
 .site-main .project-area .button-group ul li button + button{
     padding-left: 3rem;
@@ -29,8 +37,9 @@ body {
     font-weight: bold;
     border-bottom: 3px solid !important;
 }
-.site-main .project-area .grid .our-project > .title h4{
-    font: normal 700 25px/12px 'Roboto', cursive;
+.site-main .project-area .grid .our-project > .title h5{
+    font: normal 0 10px/10px 'Roboto', cursive;
+    /*font-size: 15px;*/
 }
 
 .site-main .project-area .grid .our-project .img a:hover img{
@@ -170,7 +179,7 @@ body {
       margin-right:10px;
     }
 }
-.site-main .project-area .button-group ul li button:focus
+.site-main .project-area .button-group,.button-group ul li button:focus
 {
   outline: none;
 }

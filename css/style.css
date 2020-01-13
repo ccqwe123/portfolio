@@ -157,6 +157,18 @@ body {
         font: normal 16px/40px 'Roboto', cursive;
         margin-top:0px;
     }
+    .text-skill
+    {
+      position: absolute;
+    }
+    .splitter
+    {
+      margin-top: 4rem;
+    }
+    .contact-column
+    {
+      margin-right:10px;
+    }
 }
 .site-main .project-area .button-group ul li button:focus
 {
